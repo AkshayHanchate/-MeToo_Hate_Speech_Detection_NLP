@@ -12,20 +12,21 @@ Metadata like timestamp, user info (optional)
 Labels (hateful or non-hateful)
 Data preprocessing involves text cleaning, tokenization, vectorization, and handling imbalanced datasets.
 
-Key Features
+### Key Features
 Data Preprocessing: The tweets are preprocessed to remove noise, including:
 
-Lowercasing
+### Lowercasing
 Removing special characters, punctuation, and stopwords
 Tokenizing the text
 Lemmatization/Stemming
 Feature Extraction: Various NLP techniques are applied for feature extraction:
 
-Bag of Words (BoW)
+### Bag of Words (BoW)
 Term Frequency-Inverse Document Frequency (TF-IDF)
 Word Embeddings (Word2Vec, GloVe, or custom embeddings)
-Modeling: Several machine learning models are trained and evaluated for classification, including:
 
+### Modeling:
+Several machine learning models are trained and evaluated for classification, including:
 Logistic Regression
 Naive Bayes
 Support Vector Machines (SVM)
