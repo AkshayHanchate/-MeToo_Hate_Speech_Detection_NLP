@@ -4,10 +4,10 @@ This project focuses on analyzing tweets from the #MeToo movement and classifyin
 
 The project is implemented in a Python Jupyter Notebook (MeToo_Hateful_NLP.ipynb) and leverages various NLP techniques to preprocess text data, build machine learning models, and evaluate their effectiveness in classifying hate speech.
 
-Dataset
+### Dataset
 The dataset for this project consists of tweets containing the #MeToo hashtag. Each tweet has been labeled as either hateful or non-hateful based on its content. The dataset includes typical features such as:
 
-Tweet text
+### Tweet text
 Metadata like timestamp, user info (optional)
 Labels (hateful or non-hateful)
 Data preprocessing involves text cleaning, tokenization, vectorization, and handling imbalanced datasets.
